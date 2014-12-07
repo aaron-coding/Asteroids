@@ -305,6 +305,7 @@ Full-Width Styles
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+  text-align: center;
 }
 
 #project_tagline {
@@ -422,4 +423,11 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+
+/* Custom Styles */
+.main-game-wrapper {
+  width: 900px;
+  margin: 0 auto;
 }

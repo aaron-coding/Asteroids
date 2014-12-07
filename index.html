@@ -27,11 +27,13 @@
           <h1 id="project_title">Asteroids</h1>
         </header>
     </div>
+    <div class="main-game-wrapper">
         <canvas style="border-style: solid; border-width: 1px" id="canvas" width="900" height="650" id="canvas"></canvas> 
-        <script>
-    var canvas = document.getElementById('canvas');
-    var b = new Asteroids.GameView(canvas)
-    b.start()
+    </div>
+    <script>
+      var canvas = document.getElementById('canvas');
+      var b = new Asteroids.GameView(canvas)
+      b.start()
     </script>
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
@@ -41,7 +43,6 @@
       </footer>
     </div>
 
-    
 
   </body>
 </html>
