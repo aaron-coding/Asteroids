@@ -431,3 +431,7 @@ Small Device Styles
   width: 900px;
   margin: 0 auto;
 }
+
+.copyright {
+  text-align: center;
+}
